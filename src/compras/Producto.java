@@ -7,21 +7,21 @@ public class Producto {
     ** String tipo;
     ** static int totalProductosPedidos;
 
-    ** Producto(int codigo, String nombre, String tipo) {
+    public Producto(int codigo, String nombre, String tipo) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.tipo = tipo;
     }
 
-    ** void imprimirNombre() {
+    public void imprimirNombre() {
         System.out.print(nombre);
     }
 
     public void setCodigo(int codigo) {
-        **
+        return
     }
 
-    public ** getCodigo() {
+    public int getCodigo() {
         return codigo;
     }
 

@@ -1,9 +1,9 @@
 package compras;
 
-import **;
+import Producto;
 import java.util.ArrayList;
 
-public class ** {
+public class OrdenCompra {
 
     ** int codigo;
     ** String tipo;
