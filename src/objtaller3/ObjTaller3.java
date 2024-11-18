@@ -23,7 +23,7 @@ public class ObjTaller3 {
         orden1.agregarProducto(p5);
         System.out.println(Producto.getTotalProductosPedidos());
         System.out.println("Orden " + orden1.codigo + " creada");
-
+        
         Empleado emp2 = new Empleado(128,"Susana", "Administradora de sucursal");
         ArrayList<Producto> productos2 = new ArrayList<>();
         productos2.add(p2);

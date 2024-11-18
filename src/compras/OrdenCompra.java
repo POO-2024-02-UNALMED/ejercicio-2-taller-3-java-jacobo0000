@@ -7,7 +7,7 @@ public class OrdenCompra {
 
     public int codigo;
     private String tipo;
-    private Empleado comprador;
+    Empleado comprador;
     private ArrayList<Producto> productos;
 
     public OrdenCompra(int codigo, String tipo, Empleado comprador, ArrayList<Producto> productos){

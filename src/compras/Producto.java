@@ -1,7 +1,6 @@
 package compras;
 
-public class Producto {
-    
+public class Producto { 
     private final int codigo;
     private String nombre;
     public String tipo;
